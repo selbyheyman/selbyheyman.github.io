@@ -20,7 +20,7 @@
     {
         "title": "Minecraft Magic Mod",
         "description": "A Forge mod adding new spells.",
-        "url": "projects/minecraft/magic-mod.html",
+        "url": "projects/video-game/magic-mod.html",
         "date": "2026-07-18",
         "type": "project",
         "category": "minecraft",
@@ -29,7 +29,7 @@
     {
         "title": "Unity Horror Game",
         "description": "A first-person survival horror game.",
-        "url": "projects/unity/horror-game.html",
+        "url": "projects/video-game/horror-game.html",
         "date": "2026-07-12",
         "type": "project",
         "category": "unity",
