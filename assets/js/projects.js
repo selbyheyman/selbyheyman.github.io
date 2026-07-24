@@ -17,12 +17,8 @@ async function loadProjects() {
             const card = createPostCard(project);
 
             switch(project.category) {
-                case "minecraft":
-                    document.getElementById("minecraft-projects").innerHTML += card;
-                    break;
-
-                case "unity":
-                    document.getElementById("unity-projects").innerHTML += card;
+                case "video-game":
+                    document.getElementById("video-game-projects").innerHTML += card;
                     break;
 
                 case "homelab":
