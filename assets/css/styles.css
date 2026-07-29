@@ -1,3 +1,4 @@
+/*
 @font-face {
     font-family: "BBH Bogle";
     src:
@@ -8,21 +9,32 @@
     font-style: normal;
     font-display: swap;
 }
+*/
 
 @font-face {
-    font-family: "BBH Bogle";
+    font-family: "Satoshi-Bold";
     src:
-      url("../fonts/BBH-Bogle.ttf") format("truetype"),
-      url("../fonts/BBHBogle-Regular.woff2") format("woff2"),
-      url("../fonts/BBHBogle-Regular.woff") format("woff");
+      url("../fonts/Satoshi-Bold/Satoshi-Bold.ttf") format("truetype"),
+      url("../fonts/Satoshi-Bold/Satoshi-Bold.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src:
+      url("../fonts/Satoshi-Regular/Satoshi-Regular.ttf") format("truetype"),
+      url("../fonts/Satoshi-Regular/Satoshi-Regular.woff2") format("woff2"),
+      url("../fonts/Satoshi-Regular/Satoshi-Regular.woff") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 :root {
-    --bs-body-font-family: "Inter", system-ui, sans-serif;
-    --bs-heading-font-family: "BBH Bogle", sans-serif;
+    --bs-body-font-family: "Satoshi", system-ui, sans-serif;
+    --bs-heading-font-family: "Satoshi-Bold", sans-serif;
 }
 
 .page-title {
@@ -48,7 +60,7 @@
 }
 
 body {
-    background-color: #c2cad0
+    background-color: #e8e3d8
     font-family: var(--bs-body-font-family);
 }
 
