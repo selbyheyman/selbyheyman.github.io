@@ -36,6 +36,10 @@
   color: #333;
 }
 
+.bg-dark {
+    background-color: #d1d1c5;
+}
+
 .btn-primary {
   --bs-btn-bg: #6c8f57;
   --bs-btn-hover-bg: #5a32a3;
