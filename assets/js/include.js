@@ -58,7 +58,6 @@ async function loadRecentPosts() {
 
 
 function createPostCard(post) {
-
     return `
         <div class="col-md-4">
 
@@ -67,7 +66,7 @@ function createPostCard(post) {
                 ${post.image ? `
                 <img src="${post.image}"
                      class="card-img-top"
-                     alt="${post.title}">
+                     alt="">
                 ` : ""}
 
                 <div class="card-body">
@@ -103,7 +102,6 @@ function createPostCard(post) {
 
 
 function formatCategory(category) {
-
     if (!category) return "";
 
     return category
