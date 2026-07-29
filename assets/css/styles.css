@@ -26,7 +26,7 @@
 }
 
 .page-title {
-  font-family: "BBH Bogle", sans-serif;
+  font-family: var(--bs-heading-font-family);
   font-size: 3rem;
   font-weight: 400;
   font-style: normal;
@@ -47,12 +47,10 @@
   bs-btn-hover-bg: #8f5757;
 }
 
-/* Overrides bootstrap fonts*/
 body {
   font-family: var(--bs-body-font-family);
 }
 
-/* Overrides bootstrap fonts */
 h1, h2, h3, h4, h5 {
     font-family: var(--bs-heading-font-family);
 }
