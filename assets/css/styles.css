@@ -38,12 +38,12 @@
 }
 
 .btn-primary {
-  --bs-btn-bg: #afd275;
+  --bs-btn-bg: #6c8f57;
   --bs-btn-hover-bg: #5a32a3;
 }
 
 .btn-secondary {
-  --bs-btn-bg: #e7717d;
+  --bs-btn-bg: #8f5770;
   --bs-btn-hover-bg: #8f5757;
 }
 
