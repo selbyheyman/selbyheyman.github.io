@@ -37,6 +37,10 @@
   color: #333;
 }
 
+.btn-primary {
+  bs-btn-bg: #608598;
+  bs-btn-hover-bg: #5a32a3;
+
 /* Overrides bootstrap fonts*/
 body {
   font-family: var(--bs-body-font-family);
