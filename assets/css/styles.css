@@ -38,17 +38,18 @@
 }
 
 .btn-primary {
-  --bs-btn-bg: #608598;
+  --bs-btn-bg: #afd275;
   --bs-btn-hover-bg: #5a32a3;
 }
 
 .btn-secondary {
-  --bs-btn-bg: #c27e7e;
+  --bs-btn-bg: #e7717d;
   --bs-btn-hover-bg: #8f5757;
 }
 
 body {
-  font-family: var(--bs-body-font-family);
+    background-color: #c2cad0
+    font-family: var(--bs-body-font-family);
 }
 
 h1, h2, h3, h4, h5 {
