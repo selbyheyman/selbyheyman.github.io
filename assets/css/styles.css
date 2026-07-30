@@ -69,6 +69,7 @@
 }
 
 body {
+    background-image: url("../images/background.jpg");
     background-color: #f2f2e4;
     font-family: var(--bs-body-font-family);
 }
