@@ -32,6 +32,7 @@
 }
 
 .site-title {
+    font-family: var(--bs-heading-font-family);
     font-weight: bold;
     color: #333;
 }
