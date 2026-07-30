@@ -24,16 +24,16 @@
     --bs-heading-font-family: "Satoshi-Bold", sans-serif;
 }
 
-.page-title {
-  font-family: var(--bs-heading-font-family);
-  font-size: 3rem;
-  font-weight: 400;
-  font-style: normal;
+.page-title {    
+    font-family: var(--bs-heading-font-family);
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .site-title {
-  font-weight: bold;
-  color: #333;
+    font-weight: bold;
+    color: #333;
 }
 
 .bg-dark {
