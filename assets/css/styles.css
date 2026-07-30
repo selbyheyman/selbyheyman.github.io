@@ -70,6 +70,10 @@
 
 body {
     background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
     background-color: #f2f2e4;
     font-family: var(--bs-body-font-family);
 }
